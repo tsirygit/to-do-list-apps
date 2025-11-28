@@ -20,7 +20,7 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
-import Button from "./composables/ui/Button.vue";
+import Button from "~/composables/ui/Button.vue";
 
 const Title = ref("Découvrez la liste des meilleurs films nouveautés");
 const showTitle = ref(false);
