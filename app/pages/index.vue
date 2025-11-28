@@ -11,8 +11,8 @@
       </transition>
     </div>
     <div class="mt-6">
-      <NuxtLink to="">
-        <Button class="bg-black" />
+      <NuxtLink to="homepage">
+        <Button class="bg-black" label="voir maintenant" />
       </NuxtLink>
     </div>
   </div>
