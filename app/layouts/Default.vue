@@ -9,7 +9,7 @@
           <NuxtLink to="homepage">homepage</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="about">about</NuxtLink>
+          <NuxtLink to="newMovie">Ajouter de nouveaux film</NuxtLink>
         </li>
       </ul>
     </nav>
