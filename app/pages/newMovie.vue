@@ -1,11 +1,16 @@
 <template>
-  <div class="flex justify-center gap-6">
-    <Input label="titre" />
+  <div class="mt-10 flex justify-center flex-col md:flex-row gap-4">
+    <div>
+      <Input label="titre" />
+    </div>
 
-    <Select label="Genre" />
+    <div>
+      <Select label="Genre" />
+    </div>
 
-    <Button label="Ajouter" class="bg-black" />
-    
+    <div>
+      <Button label="Ajouter" class="bg-black w-28 md:w-32 mt-0 md:mt-4" />
+    </div>
   </div>
 </template>
 
