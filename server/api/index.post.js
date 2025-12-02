@@ -8,7 +8,7 @@ export default defineEventHandler(async (event) => {
   const { title, genreName } = body;
 
   if (!title || !genreName) {
-    throw createError({ statusCode: 400, message: 'Titre ou genre manquant' });
+    throw createError({ statusCode: 400, message: 'Titre ou genre manqut' });
   }
 
   // Chercher l'id du genre
