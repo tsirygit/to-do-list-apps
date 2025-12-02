@@ -1,8 +1,11 @@
 <template>
-  <div class="flex justify-arround gap-6">
-    <Input />
-    <Select />
+  <div class="flex justify-center gap-6">
+    <Input label="titre" />
+
+    <Select label="Genre" />
+
     <Button label="Ajouter" class="bg-black" />
+    
   </div>
 </template>
 

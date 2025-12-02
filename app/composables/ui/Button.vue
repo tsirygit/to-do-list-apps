@@ -1,6 +1,6 @@
 <template>
   <button
-    class="cursor-pointer px-4 py-2 border shadow rounded-xl text-lg text-white"
+    class="cursor-pointer px-2 py-2 shadow w-32 h-12 mt-4 rounded-xl text-lg text-white"
   >
     {{ label }}
   </button>
